@@ -14,6 +14,8 @@ export default defineConfig({
     tailwindcss()
   ],
 
+  base: '/arogyaai/',
+
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
